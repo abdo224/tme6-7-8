@@ -1,0 +1,9 @@
+# my-values.yaml
+alertmanager:
+  enabled: true
+
+kubelet:
+  enabled: true
+grafana:
+  enabled: true
+  port: 3001

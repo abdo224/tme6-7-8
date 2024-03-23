@@ -1,0 +1,12 @@
+2024-03-16 21:45:16.909 [info] Extension host with pid 4198 started
+2024-03-16 21:45:16.927 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': Lock acquired.
+2024-03-16 21:45:16.970 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-16 21:45:16.995 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-16 21:45:17.106 [info] Eager extensions activated
+2024-03-16 21:45:17.107 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 21:45:17.107 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 21:45:18.046 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-16 21:45:58.743 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-03-16 21:51:21.951 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-03-16 21:53:20.037 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-16 22:04:38.409 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'

@@ -1,0 +1,8 @@
+{
+    "git.terminalGitEditor": true,
+    "git.mergeEditor": true,
+    "remote.SSH.remotePlatform": {
+        "20.13.145.35": "linux",
+        "20.19.35.86": "linux"
+    }
+}

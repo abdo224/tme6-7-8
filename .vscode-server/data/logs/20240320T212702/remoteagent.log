@@ -1,0 +1,21 @@
+2024-03-20 21:27:02.516 [info] 
+
+
+
+
+2024-03-20 21:27:02.540 [info] Extension host agent started.
+2024-03-20 21:27:02.787 [info] [127.0.0.1][1bf17f71][ManagementConnection] New connection established.
+2024-03-20 21:27:02.790 [info] [127.0.0.1][e552f29c][ExtensionHostConnection] New connection established.
+2024-03-20 21:27:02.917 [info] [127.0.0.1][e552f29c][ExtensionHostConnection] <4187> Launched Extension Host Process.
+2024-03-20 21:32:02.542 [info] New EH opened, aborting shutdown
+2024-03-20 21:40:16.882 [info] [127.0.0.1][88cc12b1][ManagementConnection] New connection established.
+2024-03-20 21:40:16.924 [info] [127.0.0.1][673f5bc4][ExtensionHostConnection] New connection established.
+2024-03-20 21:40:16.930 [info] [127.0.0.1][673f5bc4][ExtensionHostConnection] <8464> Launched Extension Host Process.
+2024-03-20 21:46:12.459 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-03-20 21:46:12.466 [info] [127.0.0.1][1bf17f71][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-03-20 22:04:28.422 [info] [127.0.0.1][1bf17f71][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-03-20 22:04:28.423 [info] [127.0.0.1][88cc12b1][ManagementConnection] The client has reconnected.
+2024-03-20 22:04:28.427 [info] [127.0.0.1][673f5bc4][ExtensionHostConnection] The client has reconnected.
+2024-03-20 22:09:28.493 [info] [127.0.0.1][1bf17f71][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-03-20 22:09:28.537 [info] [127.0.0.1][e552f29c][ExtensionHostConnection] <4187> Extension Host Process exited with code: 0, signal: null.

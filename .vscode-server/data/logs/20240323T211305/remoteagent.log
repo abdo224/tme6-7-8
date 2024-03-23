@@ -1,0 +1,34 @@
+2024-03-23 21:13:05.173 [info] 
+
+
+
+
+2024-03-23 21:13:05.198 [info] Extension host agent started.
+2024-03-23 21:13:05.397 [info] [127.0.0.1][de2be7c0][ManagementConnection] New connection established.
+2024-03-23 21:13:05.400 [info] [127.0.0.1][275a1966][ExtensionHostConnection] New connection established.
+2024-03-23 21:13:05.543 [info] [127.0.0.1][275a1966][ExtensionHostConnection] <5599> Launched Extension Host Process.
+2024-03-23 21:13:07.602 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-23 21:18:05.199 [info] New EH opened, aborting shutdown
+2024-03-23 22:03:07.558 [info] Started initializing default profile extensions in extensions installation folder. file:///home/CRV2/.vscode-server/extensions
+2024-03-23 22:03:07.560 [error] Error: Unable to resolve nonexistent file '/home/CRV2/.vscode-server/extensions'
+    at u.resolve (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:117:13807)
+    at async de.n (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:169:54337)
+    at async de.scanExtensions (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:169:54108)
+    at async m.scanUserExtensions (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:169:46985)
+    at async /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:169:49010
+    at async m.scanUserExtensions (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:169:47082)
+    at async K.scanExtensions (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:169:72534)
+    at async d.call (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/server/node/server.main.js:112:22799)

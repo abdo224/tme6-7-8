@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-node-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-node
+  template:
+    metadata:
+      labels:
+        app: redis-node
+    spec:
+      containers:
+      - name: redis-node
+        image: abdeldjaoued22/crv:latest
+        ports:
+        - containerPort: 3000

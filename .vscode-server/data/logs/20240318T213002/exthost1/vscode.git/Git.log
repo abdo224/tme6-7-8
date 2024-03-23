@@ -1,0 +1,146 @@
+2024-03-18 21:30:06.150 [info] Log level: Info
+2024-03-18 21:30:06.150 [info] Validating found git in: "git"
+2024-03-18 21:30:06.150 [info] Using git "2.25.1" from "git"
+2024-03-18 21:30:06.150 [info] > git rev-parse --show-toplevel [63ms]
+2024-03-18 21:30:06.150 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.150 [info] > git rev-parse --show-toplevel [170ms]
+2024-03-18 21:30:06.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.151 [info] > git rev-parse --show-toplevel [17ms]
+2024-03-18 21:30:06.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.151 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-18 21:30:06.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.172 [info] > git rev-parse --show-toplevel [13ms]
+2024-03-18 21:30:06.172 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.187 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-18 21:30:06.187 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.201 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-18 21:30:06.201 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.215 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-18 21:30:06.215 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.224 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-18 21:30:06.224 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:06.249 [info] > git rev-parse --show-toplevel [19ms]
+2024-03-18 21:30:06.250 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:30:08.946 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-18 21:30:08.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:38:23.441 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-18 21:38:23.441 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-18 21:43:39.589 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-18 21:43:39.598 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-03-18 21:43:39.613 [info] Open repository: /home/CRV2/.nvm
+2024-03-18 21:43:39.635 [info] > git config --get commit.template [9ms]
+2024-03-18 21:43:39.637 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-03-18 21:43:39.665 [info] > git status -z -uall [20ms]
+2024-03-18 21:43:39.688 [info] > git config --get commit.template [10ms]
+2024-03-18 21:43:39.690 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-03-18 21:43:39.716 [info] > git status -z -uall [20ms]
+2024-03-18 21:43:40.289 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-18 21:43:40.879 [info] > git config --get commit.template [10ms]
+2024-03-18 21:43:40.881 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-03-18 21:43:40.901 [info] > git status -z -uall [14ms]
+2024-03-18 21:49:48.972 [info] > git config --get commit.template [8ms]
+2024-03-18 21:49:48.974 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-03-18 21:49:48.984 [info] > git status -z -uall [5ms]
+2024-03-18 21:50:18.656 [info] > git config --get commit.template [7ms]
+2024-03-18 21:50:18.658 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-03-18 21:50:18.671 [info] > git status -z -uall [4ms]
+2024-03-18 21:50:23.687 [info] > git config --get commit.template [6ms]
+2024-03-18 21:50:23.687 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-03-18 21:50:23.696 [info] > git status -z -uall [3ms]
+2024-03-18 21:50:28.712 [info] > git config --get commit.template [7ms]
+2024-03-18 21:50:28.712 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-03-18 21:50:28.721 [info] > git status -z -uall [3ms]
+2024-03-18 21:53:48.471 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-18 21:53:48.479 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-18 21:53:48.485 [info] Open repository: /home/CRV2/my-react-app
+2024-03-18 21:53:48.498 [info] No remotes found in the git config file.
+2024-03-18 21:53:48.500 [info] > git config --get commit.template [9ms]
+2024-03-18 21:53:48.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-18 21:53:48.503 [warning] No such branch: master.
+2024-03-18 21:53:48.516 [info] > git status -z -uall [3ms]
+2024-03-18 21:53:48.542 [info] No remotes found in the git config file.
+2024-03-18 21:53:48.543 [info] > git config --get commit.template [8ms]
+2024-03-18 21:53:48.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-03-18 21:53:48.545 [warning] No such branch: master.
+2024-03-18 21:53:48.553 [info] > git status -z -uall [3ms]
+2024-03-18 21:53:49.131 [info] > git check-ignore -v -z --stdin [10ms]
+2024-03-18 21:53:49.136 [info] > git check-ignore -v -z --stdin [6ms]
+2024-03-18 21:55:55.867 [info] No remotes found in the git config file.
+2024-03-18 21:55:55.868 [info] > git config --get commit.template [9ms]
+2024-03-18 21:55:55.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 21:55:55.877 [info] > git status -z -uall [1ms]
+2024-03-18 21:56:00.894 [info] No remotes found in the git config file.
+2024-03-18 21:56:00.895 [info] > git config --get commit.template [7ms]
+2024-03-18 21:56:00.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-18 21:56:00.904 [info] > git status -z -uall [2ms]
+2024-03-18 21:56:41.210 [info] No remotes found in the git config file.
+2024-03-18 21:56:41.211 [info] > git config --get commit.template [12ms]
+2024-03-18 21:56:41.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-03-18 21:56:41.222 [info] > git status -z -uall [3ms]
+2024-03-18 21:56:50.261 [info] > git config --get commit.template [2ms]
+2024-03-18 21:56:50.267 [info] No remotes found in the git config file.
+2024-03-18 21:56:50.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 21:56:50.276 [info] > git status -z -uall [1ms]
+2024-03-18 21:57:09.962 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 21:57:25.565 [info] > git show --textconv :Dockerfile [8ms]
+2024-03-18 21:57:25.565 [info] > git ls-files --stage -- /home/CRV2/my-react-app/Dockerfile [2ms]
+2024-03-18 21:57:25.699 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-18 21:57:26.200 [info] No remotes found in the git config file.
+2024-03-18 21:57:26.206 [info] > git config --get commit.template [7ms]
+2024-03-18 21:57:26.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 21:57:26.215 [info] > git status -z -uall [3ms]
+2024-03-18 21:58:00.477 [info] No remotes found in the git config file.
+2024-03-18 21:58:00.478 [info] > git config --get commit.template [8ms]
+2024-03-18 21:58:00.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-18 21:58:00.486 [info] > git status -z -uall [1ms]
+2024-03-18 22:00:46.647 [info] > git show --textconv :react.yml [7ms]
+2024-03-18 22:00:46.648 [info] > git ls-files --stage -- /home/CRV2/my-react-app/react.yml [2ms]
+2024-03-18 22:00:46.776 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-18 22:00:47.343 [info] No remotes found in the git config file.
+2024-03-18 22:00:47.344 [info] > git config --get commit.template [7ms]
+2024-03-18 22:00:47.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 22:00:47.351 [info] > git status -z -uall [1ms]
+2024-03-18 22:01:45.042 [info] No remotes found in the git config file.
+2024-03-18 22:01:45.042 [info] > git config --get commit.template [7ms]
+2024-03-18 22:01:45.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 22:01:45.050 [info] > git status -z -uall [2ms]
+2024-03-18 22:05:37.269 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 22:05:42.494 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 22:05:47.799 [info] > git show --textconv :node_modules/@alloc/quick-lru/index.js [9ms]
+2024-03-18 22:05:47.799 [info] > git ls-files --stage -- /home/CRV2/my-react-app/node_modules/@alloc/quick-lru/index.js [3ms]
+2024-03-18 22:05:55.732 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 22:05:56.839 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 22:05:57.763 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 22:05:58.572 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-18 22:05:59.573 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-18 22:06:00.248 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-18 22:11:17.227 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-18 22:11:20.265 [info] > git show --textconv :src/App.js [7ms]
+2024-03-18 22:11:20.266 [info] > git ls-files --stage -- /home/CRV2/my-react-app/src/App.js [2ms]
+2024-03-18 22:11:20.275 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [2ms]
+2024-03-18 22:13:15.181 [info] No remotes found in the git config file.
+2024-03-18 22:13:15.182 [info] > git config --get commit.template [8ms]
+2024-03-18 22:13:15.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 22:13:15.190 [info] > git status -z -uall [2ms]
+2024-03-18 22:14:17.515 [info] > git show --textconv :Dockerfile [7ms]
+2024-03-18 22:14:17.517 [info] > git ls-files --stage -- /home/CRV2/my-react-app/Dockerfile [3ms]
+2024-03-18 22:15:23.333 [info] > git config --get commit.template [2ms]
+2024-03-18 22:15:23.344 [info] No remotes found in the git config file.
+2024-03-18 22:15:23.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 22:15:23.355 [info] > git status -z -uall [3ms]
+2024-03-18 22:15:30.250 [info] No remotes found in the git config file.
+2024-03-18 22:15:30.250 [info] > git config --get commit.template [7ms]
+2024-03-18 22:15:30.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 22:15:30.257 [info] > git status -z -uall [1ms]
+2024-03-18 22:17:44.408 [info] > git show --textconv :react.yml [8ms]
+2024-03-18 22:17:44.408 [info] > git ls-files --stage -- /home/CRV2/my-react-app/react.yml [2ms]
+2024-03-18 22:20:38.692 [info] No remotes found in the git config file.
+2024-03-18 22:20:38.693 [info] > git config --get commit.template [7ms]
+2024-03-18 22:20:38.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-18 22:20:38.705 [info] > git status -z -uall [3ms]
+2024-03-18 22:20:53.618 [info] > git config --get commit.template [1ms]
+2024-03-18 22:20:53.624 [info] No remotes found in the git config file.
+2024-03-18 22:20:53.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-18 22:20:53.632 [info] > git status -z -uall [2ms]
+2024-03-18 22:23:08.987 [info] > git show --textconv :Dockerfile [9ms]
+2024-03-18 22:23:08.988 [info] > git ls-files --stage -- /home/CRV2/my-react-app/Dockerfile [3ms]

@@ -1,0 +1,40 @@
+2024-03-16 21:43:45.581 [info] 
+
+
+
+
+2024-03-16 21:43:45.607 [info] Extension host agent started.
+2024-03-16 21:43:46.042 [info] [127.0.0.1][26e170c0][ManagementConnection] New connection established.
+2024-03-16 21:43:46.162 [info] [127.0.0.1][0c84e560][ExtensionHostConnection] New connection established.
+2024-03-16 21:43:46.312 [info] [127.0.0.1][0c84e560][ExtensionHostConnection] <3545> Launched Extension Host Process.
+2024-03-16 21:44:50.994 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-03-16 21:44:50.995 [info] Cancelling previous shutdown timeout
+2024-03-16 21:44:51.254 [info] [127.0.0.1][0f304cef][ManagementConnection] New connection established.
+2024-03-16 21:44:51.289 [info] [127.0.0.1][c378ecf6][ExtensionHostConnection] New connection established.
+2024-03-16 21:44:51.294 [info] [127.0.0.1][c378ecf6][ExtensionHostConnection] <3961> Launched Extension Host Process.
+2024-03-16 21:44:53.636 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-16 21:44:58.678 [info] [127.0.0.1][0f304cef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-16 21:44:58.724 [info] [127.0.0.1][c378ecf6][ExtensionHostConnection] <3961> Extension Host Process exited with code: 0, signal: null.
+2024-03-16 21:44:58.724 [info] Cancelling previous shutdown timeout
+2024-03-16 21:45:06.537 [info] [127.0.0.1][26e170c0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-16 21:45:06.583 [info] [127.0.0.1][0c84e560][ExtensionHostConnection] <3545> Extension Host Process exited with code: 0, signal: null.
+2024-03-16 21:45:06.583 [info] Last EH closed, waiting before shutting down
+2024-03-16 21:45:15.585 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-03-16 21:45:15.585 [info] Cancelling previous shutdown timeout
+2024-03-16 21:45:15.850 [info] [127.0.0.1][5a26080f][ManagementConnection] New connection established.
+2024-03-16 21:45:15.913 [info] [127.0.0.1][885a9c24][ExtensionHostConnection] New connection established.
+2024-03-16 21:45:15.922 [info] [127.0.0.1][885a9c24][ExtensionHostConnection] <4198> Launched Extension Host Process.
+2024-03-16 21:50:15.587 [info] New EH opened, aborting shutdown

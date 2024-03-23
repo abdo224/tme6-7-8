@@ -1,0 +1,26 @@
+2024-03-23 21:13:06.768 [info] Extension host with pid 5599 started
+2024-03-23 21:13:06.768 [error] Error: EEXIST: file already exists, open '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock'
+2024-03-23 21:13:06.775 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-03-23 21:13:06.783 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': The pid 19094 appears to be gone.
+2024-03-23 21:13:06.783 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': Deleting a stale lock.
+2024-03-23 21:13:06.795 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': Lock acquired.
+2024-03-23 21:13:07.012 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-03-23 21:13:07.014 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-23 21:13:07.723 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-23 21:13:07.787 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-23 21:13:07.787 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-23 21:13:08.001 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-23 21:13:08.001 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-23 21:13:08.660 [info] Eager extensions activated
+2024-03-23 21:13:08.661 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-23 21:13:08.661 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-23 21:13:14.632 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-03-23 22:01:18.269 [error] Error: ENOENT: no such file or directory, open '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock'
+2024-03-23 22:01:18.269 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': The lock was lost unexpectedly.
+2024-03-23 22:01:18.270 [error] Error: ENOENT: no such file or directory, utime '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock'
+2024-03-23 22:01:18.270 [info] Lock '/home/CRV2/.vscode-server/data/User/workspaceStorage/d6549f4b6857d62d7c275a13238df651/vscode.lock': Could not update mtime.
+2024-03-23 22:04:35.274 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8423
+2024-03-23 22:04:37.004 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8423
+2024-03-23 22:05:08.348 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8424
+2024-03-23 22:05:39.861 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8424
+2024-03-23 22:05:46.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8424

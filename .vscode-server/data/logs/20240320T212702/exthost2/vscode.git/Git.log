@@ -1,0 +1,58 @@
+2024-03-20 21:40:19.650 [info] Log level: Info
+2024-03-20 21:40:19.650 [info] Validating found git in: "git"
+2024-03-20 21:40:19.650 [info] Using git "2.25.1" from "git"
+2024-03-20 21:40:19.650 [info] > git rev-parse --show-toplevel [13ms]
+2024-03-20 21:40:19.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.650 [info] > git rev-parse --show-toplevel [42ms]
+2024-03-20 21:40:19.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.650 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-20 21:40:19.651 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.651 [info] > git rev-parse --show-toplevel [103ms]
+2024-03-20 21:40:19.651 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.674 [info] > git rev-parse --show-toplevel [31ms]
+2024-03-20 21:40:19.674 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.687 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-20 21:40:19.687 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.699 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-20 21:40:19.699 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.707 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-20 21:40:19.707 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.715 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-20 21:40:19.724 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-20 21:40:19.743 [info] Open repository: /home/CRV2/.nvm
+2024-03-20 21:40:19.761 [info] > git config --get commit.template [7ms]
+2024-03-20 21:40:19.770 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-20 21:40:19.770 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.778 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-03-20 21:40:19.787 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-20 21:40:19.787 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.797 [info] > git status -z -uall [11ms]
+2024-03-20 21:40:19.811 [info] > git rev-parse --show-toplevel [15ms]
+2024-03-20 21:40:19.811 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.820 [info] > git config --get commit.template [9ms]
+2024-03-20 21:40:19.838 [info] > git rev-parse --show-toplevel [20ms]
+2024-03-20 21:40:19.838 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.851 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [14ms]
+2024-03-20 21:40:19.885 [info] > git rev-parse --show-toplevel [34ms]
+2024-03-20 21:40:19.906 [info] > git status -z -uall [23ms]
+2024-03-20 21:40:19.906 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-20 21:40:19.918 [info] Open repository: /home/CRV2/my-react-app
+2024-03-20 21:40:19.942 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-20 21:40:19.942 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.987 [info] No remotes found in the git config file.
+2024-03-20 21:40:19.988 [info] > git rev-parse --show-toplevel [21ms]
+2024-03-20 21:40:19.988 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 21:40:19.989 [info] > git config --get commit.template [55ms]
+2024-03-20 21:40:19.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-03-20 21:40:20.017 [info] > git status -z -uall [9ms]
+2024-03-20 21:40:20.061 [info] No remotes found in the git config file.
+2024-03-20 21:40:20.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-03-20 21:40:20.071 [info] > git config --get commit.template [22ms]
+2024-03-20 21:40:20.086 [info] > git status -z -uall [9ms]
+2024-03-20 21:40:20.468 [info] > git check-ignore -v -z --stdin [9ms]
+2024-03-20 21:40:20.469 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-20 21:40:23.630 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-20 21:40:23.630 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 22:04:29.187 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-20 22:04:29.187 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-20 22:07:01.683 [info] > git check-ignore -v -z --stdin [1ms]

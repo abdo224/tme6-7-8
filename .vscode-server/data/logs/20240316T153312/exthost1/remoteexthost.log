@@ -1,0 +1,10 @@
+2024-03-16 15:33:30.942 [info] Extension host with pid 1645 started
+2024-03-16 15:33:31.049 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-16 15:33:31.133 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-16 15:33:31.133 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-16 15:33:31.405 [info] Eager extensions activated
+2024-03-16 15:33:31.406 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 15:33:31.406 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-16 15:33:34.801 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-03-16 15:45:19.783 [info] Extension host terminating: received terminate message from renderer
+2024-03-16 15:45:19.798 [info] Extension host with pid 1645 exiting with code 0

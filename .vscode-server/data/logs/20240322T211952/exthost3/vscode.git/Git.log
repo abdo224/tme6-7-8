@@ -1,0 +1,68 @@
+2024-03-22 22:44:08.540 [info] Log level: Info
+2024-03-22 22:44:08.540 [info] Validating found git in: "git"
+2024-03-22 22:44:08.540 [info] Using git "2.25.1" from "git"
+2024-03-22 22:44:08.540 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-22 22:44:08.540 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.544 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-22 22:44:08.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.554 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 22:44:08.555 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.562 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 22:44:08.562 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.569 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 22:44:08.569 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.576 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 22:44:08.576 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.582 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 22:44:08.582 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.590 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-22 22:44:08.590 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.598 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-22 22:44:08.632 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-03-22 22:44:08.654 [info] Open repository: /home/CRV2/.nvm
+2024-03-22 22:44:08.687 [info] > git config --get commit.template [7ms]
+2024-03-22 22:44:08.733 [info] > git rev-parse --show-toplevel [47ms]
+2024-03-22 22:44:08.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.742 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [48ms]
+2024-03-22 22:44:08.751 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-22 22:44:08.751 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.769 [info] > git status -z -uall [20ms]
+2024-03-22 22:44:08.781 [info] > git rev-parse --show-toplevel [25ms]
+2024-03-22 22:44:08.781 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.782 [info] > git config --get commit.template [2ms]
+2024-03-22 22:44:08.796 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-22 22:44:08.796 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 22:44:08.817 [info] > git rev-parse --show-toplevel [16ms]
+2024-03-22 22:44:08.817 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [22ms]
+2024-03-22 22:44:08.834 [info] > git status -z -uall [10ms]
+2024-03-22 22:44:08.852 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-03-22 22:44:08.862 [info] Open repository: /home/CRV2/my-react-app
+2024-03-22 22:44:08.886 [info] No remotes found in the git config file.
+2024-03-22 22:44:08.887 [info] > git config --get commit.template [9ms]
+2024-03-22 22:44:08.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-22 22:44:08.901 [info] > git status -z -uall [4ms]
+2024-03-22 22:44:08.925 [info] No remotes found in the git config file.
+2024-03-22 22:44:08.926 [info] > git config --get commit.template [8ms]
+2024-03-22 22:44:08.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-22 22:44:08.938 [info] > git status -z -uall [3ms]
+2024-03-22 22:44:09.492 [info] > git check-ignore -v -z --stdin [7ms]
+2024-03-22 22:44:09.494 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-22 23:19:35.589 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-22 23:21:04.179 [info] > git show --textconv :react.yml [8ms]
+2024-03-22 23:21:04.181 [info] > git ls-files --stage -- /home/CRV2/my-react-app/react.yml [3ms]
+2024-03-22 23:21:23.748 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-22 23:21:23.748 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 23:21:24.680 [info] No remotes found in the git config file.
+2024-03-22 23:21:24.682 [info] > git config --get commit.template [8ms]
+2024-03-22 23:21:24.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-22 23:21:24.692 [info] > git status -z -uall [3ms]
+2024-03-22 23:23:41.715 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-22 23:23:41.715 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 23:32:33.618 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-22 23:32:33.619 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 23:32:38.438 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-22 23:32:38.439 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 23:38:12.719 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-22 23:38:12.719 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-22 23:38:35.163 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-22 23:38:35.163 [info] fatal: not a git repository (or any of the parent directories): .git

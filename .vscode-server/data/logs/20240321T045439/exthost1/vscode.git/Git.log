@@ -1,0 +1,49 @@
+2024-03-21 04:54:43.540 [info] Log level: Info
+2024-03-21 04:54:43.540 [info] Validating found git in: "git"
+2024-03-21 04:54:43.540 [info] Using git "2.25.1" from "git"
+2024-03-21 04:54:43.540 [info] > git rev-parse --show-toplevel [46ms]
+2024-03-21 04:54:43.540 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.540 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-21 04:54:43.540 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.544 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-21 04:54:43.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.551 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-21 04:54:43.551 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.595 [info] > git rev-parse --show-toplevel [34ms]
+2024-03-21 04:54:43.595 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.614 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-21 04:54:43.614 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.623 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-21 04:54:43.623 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.646 [info] > git rev-parse --show-toplevel [16ms]
+2024-03-21 04:54:43.646 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.705 [info] > git rev-parse --show-toplevel [52ms]
+2024-03-21 04:54:43.714 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-21 04:54:43.728 [info] Open repository: /home/CRV2/.nvm
+2024-03-21 04:54:43.753 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-21 04:54:43.753 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.754 [info] > git config --get commit.template [17ms]
+2024-03-21 04:54:43.766 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-21 04:54:43.766 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.780 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [26ms]
+2024-03-21 04:54:43.803 [info] > git rev-parse --show-toplevel [30ms]
+2024-03-21 04:54:43.803 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.817 [info] > git rev-parse --show-toplevel [8ms]
+2024-03-21 04:54:43.818 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-21 04:54:43.835 [info] > git rev-parse --show-toplevel [12ms]
+2024-03-21 04:54:43.844 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-21 04:54:43.849 [info] Open repository: /home/CRV2/my-react-app
+2024-03-21 04:54:43.876 [info] > git config --get commit.template [14ms]
+2024-03-21 04:54:43.882 [info] No remotes found in the git config file.
+2024-03-21 04:54:43.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-21 04:54:43.926 [info] > git status -z -uall [32ms]
+2024-03-21 04:54:44.080 [info] > git status -z -uall [279ms]
+2024-03-21 04:54:44.081 [info] > git config --get commit.template [130ms]
+2024-03-21 04:54:44.108 [info] No remotes found in the git config file.
+2024-03-21 04:54:44.110 [info] > git config --get commit.template [14ms]
+2024-03-21 04:54:44.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2024-03-21 04:54:44.147 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [17ms]
+2024-03-21 04:54:44.158 [info] > git status -z -uall [8ms]
+2024-03-21 04:54:44.162 [info] > git status -z -uall [9ms]
+2024-03-21 04:54:44.428 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-21 04:54:44.430 [info] > git check-ignore -v -z --stdin [10ms]

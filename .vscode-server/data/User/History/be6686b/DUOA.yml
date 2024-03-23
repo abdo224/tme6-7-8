@@ -1,0 +1,6 @@
+# my-values.yaml
+alertmanager:
+  enabled: true
+
+kubelet:
+  enabled: true

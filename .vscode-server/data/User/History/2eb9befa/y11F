@@ -1,0 +1,11 @@
+# Use a lightweight web server image
+FROM nginx:alpine
+
+# Copy the built React app to the web server directory
+COPY build/ /usr/share/nginx/html
+
+# Expose port 80
+EXPOSE 80
+
+# Start the web server
+CMD ["nginx", "-g", "daemon off;"]
