@@ -15,3 +15,5 @@ J'ai déployé un chart Helm appelé kube-prometheus-stack et j'ai modifié le f
 ## Commandes
 kubectl apply -f
 helm install <Nom> <lien_du_chart_Helm>
+docker build -t
+docker push <docker_registry>
