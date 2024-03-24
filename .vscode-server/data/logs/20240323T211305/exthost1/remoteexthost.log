@@ -26,3 +26,37 @@
 2024-03-23 22:05:46.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8424
 2024-03-23 22:06:54.342 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8426
 2024-03-23 22:07:14.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8426
+2024-03-23 22:29:49.358 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-23 22:29:49.359 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-23 22:29:49.361 [error] Activating extension vscode.extension-editing failed due to an error:
+2024-03-23 22:29:49.361 [error] Error: Cannot find module '/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/extension-editing/dist/extensionEditingMain'
+Require stack:
+- /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/loader.js
+- /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-amd.js
+- /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+	at Module._load (node:internal/modules/cjs/loader:922:27)
+	at h._load (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:173:5634)
+	at n._load (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:170:29786)
+	at t._load (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:135:35289)
+	at Module.require (node:internal/modules/cjs/loader:1143:19)
+	at require (node:internal/modules/cjs/helpers:121:18)
+	at Function.i [as __$__nodeRequire] (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/loader.js:5:98)
+	at p.vb (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:170:30965)
+	at async Promise.all (index 0)
+2024-03-23 22:29:49.361 [error] Activating extension vscode.markdown-language-features failed due to an error:
+2024-03-23 22:29:49.361 [error] Error: Cannot find module '/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/markdown-language-features/dist/extension'
+Require stack:
+- /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/loader.js
+- /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-amd.js
+- /home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+	at Module._load (node:internal/modules/cjs/loader:922:27)
+	at h._load (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:173:5634)
+	at n._load (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:170:29786)
+	at t._load (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:135:35289)
+	at Module.require (node:internal/modules/cjs/loader:1143:19)
+	at require (node:internal/modules/cjs/helpers:121:18)
+	at Function.i [as __$__nodeRequire] (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/loader.js:5:98)
+	at p.vb (/home/CRV2/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:170:30965)
+	at async Promise.all (index 0)
