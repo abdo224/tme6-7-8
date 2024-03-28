@@ -1,38 +1,29 @@
-name: Generate SSH Key and Connect to VM
+name: SSH to VM and run commands
 
 on:
   push:
     branches:
-      - master # Change this to your branch name
+      - master  # Change this to your branch name
 
 jobs:
-  generate_ssh_key_and_connect:
+  ssh_to_vm_and_run_commands:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Generate SSH key
-      run: |
-        ssh-keygen -t rsa -b 4096 -C "djawedbessa@gmail.com" -N '' -f ~/.ssh/id_rsa
-        cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-        chmod 600 ~/.ssh/authorized_keys
-
-    - name: Set up SSH agent
-      run: |
-        eval "$(ssh-agent -s)"
-        ssh-add ~/.ssh/id_rsa
-
-    - name: Connect to VM
+    - name: SSH to VM and run commands
       env:
         VM_USERNAME: ${{ secrets.USER }}
+        VM_PASSWORD: ${{ secrets.PASS }}
         VM_IP: ${{ secrets.VM_IP }}
       run: |
-        ssh -o StrictHostKeyChecking=no $VM_USERNAME@$VM_IP << 'EOF'
-          echo "Connected to VM"
-          
+        sshpass -p $VM_PASSWORD ssh -o StrictHostKeyChecking=no $VM_USERNAME@$VM_IP << 'EOF'
+          echo "Executing command 1"
+          # Command 1
+          echo "Executing command 2"
+          # Command 2
+          echo "Executing command 3"
+          # Command 3
         EOF
-
-
-
