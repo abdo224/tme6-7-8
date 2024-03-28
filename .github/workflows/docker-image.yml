@@ -1,18 +1,25 @@
-name: Docker Image CI
+name: Deploy to Azure VM
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
 
 jobs:
-
-  build:
-
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Connect to Azure VM
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.VM_IP }}
+        username: ${{ secrets.USER }}
+        password: ${{ secrets.PASS }}
+        script: |
+          ls
+
+
