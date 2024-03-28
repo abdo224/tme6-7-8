@@ -27,6 +27,8 @@ jobs:
           kubectl apply -f redis.yaml
           kubectl apply -f redis-node.yml
           kubectl apply -f react.yml
+          helm uninstall prometheus -n monitoring
           helm install prometheus prometheus-community/kube-prometheus-stack -n monitoring
+        
           
         EOF
