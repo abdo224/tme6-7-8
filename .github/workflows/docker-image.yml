@@ -1,25 +1,33 @@
-name: Deploy to Azure VM
+name: SSH to VM and run commands
 
 on:
   push:
     branches:
-      - master
+      - master # Change this to your branch name
 
 jobs:
-  deploy:
+  ssh_to_vm_and_run_commands:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Connect to Azure VM
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.VM_IP }}
-        username: ${{ secrets.USER }}
-        password: ${{ secrets.PASS }}
-        script: |
-          ls
+    - name: Install SSH key
+      run: |
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H $VM_IP >> ~/.ssh/known_hosts
+
+    - name: SSH to VM and run commands
+      env:
+        USER: ${{ secrets.USER }}
+        VM_IP: ${{ secrets.VM_IP }}
+      run: |
+        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa $USER@$VM_IP << 'EOF'
+          echo "Executing command 1"
+          
+        EOF
+
 
 
