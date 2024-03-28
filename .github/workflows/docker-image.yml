@@ -1,4 +1,4 @@
-name: SSH to VM and run commands
+name: Generate SSH Key and Connect to VM
 
 on:
   push:
@@ -6,26 +6,31 @@ on:
       - master # Change this to your branch name
 
 jobs:
-  ssh_to_vm_and_run_commands:
+  generate_ssh_key_and_connect:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install SSH key
+    - name: Generate SSH key
       run: |
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H $VM_IP >> ~/.ssh/known_hosts
+        ssh-keygen -t rsa -b 4096 -C "djawedbessa@gmail.com" -N '' -f ~/.ssh/id_rsa
+        cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+        chmod 600 ~/.ssh/authorized_keys
 
-    - name: SSH to VM and run commands
+    - name: Set up SSH agent
+      run: |
+        eval "$(ssh-agent -s)"
+        ssh-add ~/.ssh/id_rsa
+
+    - name: Connect to VM
       env:
-        USER: ${{ secrets.USER }}
+        VM_USERNAME: ${{ secrets.USER }}
         VM_IP: ${{ secrets.VM_IP }}
       run: |
-        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa $USER@$VM_IP << 'EOF'
-          echo "Executing command 1"
+        ssh -o StrictHostKeyChecking=no $VM_USERNAME@$VM_IP << 'EOF'
+          echo "Connected to VM"
           
         EOF
 
