@@ -20,5 +20,5 @@ jobs:
         VM_IP: ${{ secrets.VM_IP }}
       run: |
         sshpass -p $VM_PASSWORD ssh -o StrictHostKeyChecking=no $VM_USERNAME@$VM_IP << 'EOF'
-          pwd
+          ls
         EOF
