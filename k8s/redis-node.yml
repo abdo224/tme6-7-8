@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: redis-node-deployment
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: redis-node
