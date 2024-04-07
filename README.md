@@ -12,7 +12,7 @@ J'ai cloné les dépôts sur le support du cours, puis j'ai construit et lancé 
 ## Prometheus et Grafana
 J'ai déployé un chart Helm appelé kube-prometheus-stack dans le namespace monitoring et j'ai modifié le fichier prometheus_values.yml pour ajuster les metrics .
 ### CICD 
-pour la partie CICD on a utilise le github actions pour automatiser le deploiement .
+pour la partie CICD on a utilise le github actions pour automatiser le deploiement . 
 
 ## Commandes
 ### kubectl apply -f
