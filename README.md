@@ -10,7 +10,9 @@ Contient les fichiers nécessaires à notre déploiement (React, Node, Redis).
 J'ai cloné les dépôts sur le support du cours, puis j'ai construit et lancé les deux applications React et Redis. Chaque répertoire contient un Dockerfile que j'ai utilisé pour créer des images Docker, que j'ai ensuite poussées vers mon compte Docker Hub.
 
 ## Prometheus et Grafana
-J'ai déployé un chart Helm appelé kube-prometheus-stack et j'ai modifié le fichier prometheus_values.yml.
+J'ai déployé un chart Helm appelé kube-prometheus-stack dans le namespace monitoring et j'ai modifié le fichier prometheus_values.yml pour ajuster les metrics .
+### CICD 
+pour la partie CICD on a utilise le github actions pour automatiser le deploiement .
 
 ## Commandes
 ### kubectl apply -f
